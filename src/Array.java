@@ -3,7 +3,7 @@ public class Array {
     talks1_1();
     talks1_2();
     talks1_3();
-    talks2_1();
+    talks4_1();
 
     }
     public static void talks1_1(){
@@ -45,8 +45,20 @@ public class Array {
         System.out.println();
 
     }
-    public static void talks2_1(){
+    public static void talks4_1() {
+        int[] array = new int[3];
+        array[0] = 1;
+        array[1] = 5;
+        array[2] = 8;
+                for (int i = 0; i < 3; i++) {
+            if (array[i] % 2 != 0) {
+                array[i] = array[i] + 1;
+                System.out.print(array[i] + " ");
+            }
 
+            else
+                System.out.print(array[i] + " ");
+        }
     }
 
 }
