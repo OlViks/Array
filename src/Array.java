@@ -11,8 +11,8 @@ public class Array {
         array[0] = 1;
         array[1] = 2;
         array[2] = 3;
-        for (int i = 0; i < 3; i++) {
-            if (i != 2)
+        for (int i = array.length - 1; i >= 0; i--) {
+            if (i != 0)
                 System.out.print(array[i] + ", ");
             else
                 System.out.print(array[i]);
@@ -22,8 +22,8 @@ public class Array {
     }
     public static void talks1_2(){
         double[] array = {1.57, 7.654, 9.986 };
-         for (int i = 0; i < 3; i++) {
-            if (i != 2)
+         for (int i = array.length - 1; i >= 0; i--) {
+            if (i != 0)
                 System.out.print(array[i] + ", ");
             else
                 System.out.print(array[i]);
@@ -36,8 +36,8 @@ public class Array {
         array[1] = 2;
         array[2] = 3;
         array[3] = 4;
-        for (int i = 0; i < 4; i++) {
-            if (i != 3)
+        for (int i = array.length - 1; i >= 0; i--) {
+            if (i != 0)
                 System.out.print(array[i] + ", ");
             else
                 System.out.println(array[i]);
